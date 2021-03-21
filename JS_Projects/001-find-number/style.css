@@ -1,0 +1,50 @@
+html{
+    box-sizing: border-box;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("https://www.funbrain.com/assets/img/content-cards/F2qRmLhRnmebc8jJAUjr_GuessTheNumber%403x.png");
+    text-align: center;
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#ftnumber{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    font-weight: bolder;
+}
+#input_number{
+    height: 35px;
+    width: 105px;
+    font-size: large;
+    text-align: center;
+}
+#input_number:active{
+    background-color:aqua;
+}
+#input_number:hover{
+    border-color: rgb(42, 65, 165);
+    border-style: solid;
+    border: 2px;
+    height: 55px;    
+}
+#btn{
+    background-color: teal;
+    color: white;
+    font-weight: bolder;
+    width: 75px;
+    height: 25px;
+}
+#btn:hover{
+    background-color: salmon;
+    width: 85px;
+    height: 35px;
+}
+#btn:active{
+    background-color: green;
+}
