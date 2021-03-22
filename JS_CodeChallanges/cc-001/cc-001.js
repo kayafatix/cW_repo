@@ -26,5 +26,5 @@ fibonacci(x);
 // );
 
 document.write(
-  `Girdiğiniz sayı:${x}\nFibonacci Listesi: [${list}]\nFibonacci değeri:${fibo}`
+  `<h3>Girdiğiniz sayı:${x}</h3><br> <h3>Fibonacci Listesi: [${list}]</h3><br> <h3>Fibonacci değeri:${fibo}</h3>`
 );
