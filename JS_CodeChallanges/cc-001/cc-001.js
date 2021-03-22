@@ -7,16 +7,23 @@ let x = prompt("Lütfen hesaplamak istediğiniz sayıyı giriniz: ");
 var list = [0, 1];
 var fibo = 1;
 
-for (i = 1; i <= x; i++) {
-  fibo += list[i - 1];
-  //console.log(fibo);
-  list.push(fibo);
-  //console.log(`${i}.döngü list:${list} - fibo:${fibo}`);
+function fibonacci(x) {
+  for (i = 1; i <= x; i++) {
+    fibo += list[i - 1];
+    //console.log(fibo);
+    list.push(fibo);
+    //console.log(`${i}.döngü list:${list} - fibo:${fibo}`);
+  }
+  return console.log(
+    `Girdiğiniz sayı:${x}\nFibonacci Listesi: [${list}]\nFibonacci değeri:${fibo}`
+  );
 }
 
-console.log(
-  `Girdiğiniz sayı:${x}\nFibonacci Listesi: [${list}]\nFibonacci değeri:${fibo}`
-);
+fibonacci(x);
+
+// console.log(
+//   `Girdiğiniz sayı:${x}\nFibonacci Listesi: [${list}]\nFibonacci değeri:${fibo}`
+// );
 
 document.write(
   `Girdiğiniz sayı:${x}\nFibonacci Listesi: [${list}]\nFibonacci değeri:${fibo}`
