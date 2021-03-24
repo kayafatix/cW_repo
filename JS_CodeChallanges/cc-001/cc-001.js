@@ -2,7 +2,7 @@
 Create a function that, given a number, returns the corresponding Fibonacci number.
 The first number in the sequence starts at 1 (not 0) */
 
-let x = prompt("Lütfen hesaplamak istediğiniz sayıyı giriniz: ");
+let x = parseInt(prompt("Lütfen hesaplamak istediğiniz sayıyı giriniz: "));
 
 var list = [0, 1];
 var fibo = 1;
