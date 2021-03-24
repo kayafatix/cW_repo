@@ -1,13 +1,8 @@
-function reverseWords(message) {
-  var list_message = message.split(" ");
-  let new_message = "";
-  for (i = list_message.length; i > 0; i--) {
-    new_message += list_message[i - 1];
-  }
-  return new_message; //Write your code here
+function reverseWords(sentence) {
+  // let result = sentence.toString();
+  // let sentence1 = result.split(" ").reverse();
+  // return sentence1;
 }
-//console.log(reverseWords(message));
-
 //You can write additional helper functions as well.
 // Tests
 
