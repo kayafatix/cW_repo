@@ -7,8 +7,8 @@
         {
             "type": "pwa-chrome",
             "request": "launch",
-            "name": "Open cc-003.html",
-            "file": "c:\\Users\\a\\Desktop\\ClarusWay\\02_FullStack\\13_Local-git\\cW_repo\\JS_CodeChallanges\\cc-003\\cc-003.html"
+            "name": "Open cc-005.html",
+            "file": "c:\\Users\\a\\Desktop\\ClarusWay\\02_FullStack\\13_Local-git\\cW_repo\\JS_CodeChallanges\\cc-005\\cc-005.html"
         }
     ]
 }
