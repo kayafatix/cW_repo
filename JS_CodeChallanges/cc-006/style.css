@@ -1,0 +1,78 @@
+html{
+    padding: 0;
+    margin: 0;
+    font-family: fantasy;
+
+}
+* {
+    box-sizing: border-box;
+  }
+  
+body{
+    background-image: url(https://picsum.photos/id/870/1700/1300?grayscale&blur=2);
+    background-repeat: no-repeat; 
+    /* background-size: cover; */
+    object-fit:none;
+}
+h1{
+    color: yellowgreen;
+    font-size:3em;
+    font-weight: lighter;
+    opacity:85%;
+    text-align: center;
+}
+.container{
+    /* margin: 5px; */
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+#decimal{
+    margin: 15px;
+    max-width: 350px;
+    height: 80px;
+    font-size: 55px;
+    align-self: center;
+    background-color: blanchedalmond;
+    
+}
+#roman{
+    margin: 15px;
+    max-width: 350px;
+    height: 80px;
+    font-size: 55px;
+    align-self: center;
+    background-color:coral;
+    text-transform: uppercase;    
+}
+#button{
+    min-width: 175px;
+    height: 80px;
+    align-self: center;
+    border-radius: 10px;
+    border: unset;
+    color: black;
+    font-size: 2em;
+    background-color:springgreen;
+    font-weight: bolder;
+}
+#button:hover{
+    background-color: darkgreen;
+}
+#button:active{
+    background-color: red;
+}
+#resultd{
+    border: 1 solid black;
+    /* max-width: 350px; */
+    align-self: center;
+    /* background-color:darkkhaki; */
+    text-transform: uppercase;   
+    font-size: 3em; 
+}
+#resultp2{
+    font-size: 1.6em;
+    color:chartreuse;
+    margin-top: -15px;
+    text-align: center;
+}
