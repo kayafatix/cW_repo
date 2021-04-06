@@ -8,14 +8,16 @@ html{
 body{
     background-image: url("https://www.funbrain.com/assets/img/content-cards/F2qRmLhRnmebc8jJAUjr_GuessTheNumber%403x.png");
     text-align: center;
-    margin: 10px;
+    /* margin: 10px; */
     background-repeat: no-repeat;
     background-size:cover;
 }
 #ftnumber{
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 80px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    font-size: 25px;
     font-weight: bolder;
 }
 #input_number{
@@ -30,8 +32,7 @@ body{
 #input_number:hover{
     border-color: rgb(42, 65, 165);
     border-style: solid;
-    border: 2px;
-    height: 55px;    
+    border-color: tomato;
 }
 #btn{
     background-color: teal;
@@ -39,12 +40,45 @@ body{
     font-weight: bolder;
     width: 75px;
     height: 25px;
+    /* border-radius: 15px; */
+    border: unset;
 }
 #btn:hover{
     background-color: salmon;
-    width: 85px;
-    height: 35px;
 }
 #btn:active{
     background-color: green;
+    border: unset;
+}
+#computer{
+    display: flex;
+    /* border: solid 3px; */
+    margin: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* 
+    align-content: stretch;
+flex-wrap: wrap;
+    text-align: center; */
+    
+}
+#answer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* border: solid 1px red; */
+    width: 100%;
+    font-size: 30px;
+}
+#counter{
+    /* border: solid 1px greenyellow; */
+   font-size:25px;
+   font-weight: bolder;
+   margin-right: 30px;
+}
+#number{
+    border:solid 3px gray;
+    border-radius: 20px;
+    box-shadow:2px teal;   
+    width: 75px;
+    margin-top: auto;
+    font-size: 25px;    
 }
