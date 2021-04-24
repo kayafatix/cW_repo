@@ -2,7 +2,7 @@ document.getElementById("btn").addEventListener("click", findNumber);
 document
   .getElementById("input_number")
   .addEventListener("keyup", function (event) {
-    if (event.keyCode === 13) {
+    if (event.code == "Enter") {
       findNumber();
     }
   });
@@ -25,6 +25,12 @@ function findNumber() {
   } else {
     document.getElementById("answer").innerHTML =
       "CONGRATS! You find the Number!";
+    let nextGame = confirm("Play again?");
+    if (nextGame) {
+      rNumber = Math.floor(Math.random() * 100 + 1);
+    } else {
+      document.getElementById("answer").innerHTML = "";
+    }
   }
   count += 1;
   document.getElementById("number").innerHTML = count;
